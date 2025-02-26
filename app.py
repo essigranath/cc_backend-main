@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     print("Hello")
-    return "<h1>Hello World!<h1>"
+    return "<h1>Hello World version2!<h1>"
 
 @app.route('/sentiment', methods=['POST'])
 def get_sentiment():
